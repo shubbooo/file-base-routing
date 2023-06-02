@@ -22,7 +22,7 @@ function EventItem(props) {
 
   const formattedAddress = location.replace(", ", "\n");
 
-  const exploreLink = "/events/${id}";
+  const exploreLink = `/events/${id}`;
 
   //in img tag src, no need to use /public we can directly use /
 
